@@ -1,0 +1,27 @@
+.todoActionsContainer {
+   margin-bottom: 20px;
+}
+
+.todoActionsContainer button {
+  padding: 5px 10px;
+  font-size: 20px;
+}
+.todoActionsContainer button:not(:last-child) {
+  margin-right: 15px;
+}
+
+.icon {
+  font-size: 35px;
+}
+.delete {
+  transition: 0.5s;
+}
+button:hover .delete {
+  color: red;
+}
+.refresh {
+  transition: 0.5s;
+}
+button:hover .refresh {
+  transform: rotate(180deg);
+}

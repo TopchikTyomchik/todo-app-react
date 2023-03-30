@@ -1,0 +1,44 @@
+.todo {
+  background-color: rgb(246, 237, 225);
+  color: #1f4662;
+  border: 2px solid gray;
+  text-align: left;
+  padding: 5px 10px;
+  margin-bottom: 20px;
+  font-size: 25px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+.todo p {
+  width: 100%;
+}
+
+.todo .icon {
+  font-size: 35px;
+  color: rgb(0, 100, 95);
+}
+
+.todo .iconDelete,
+.todo .iconComplite {
+  color: gray;
+  transition: 0.3s;
+}
+.todo .iconDelete:hover,
+.todo .iconComplite:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
+
+.todo .iconComplite:hover {
+  color: green;
+}
+.todo .iconDelete:hover {
+  color: red;
+}
+
+.todoIsComplited {
+  color: gray;
+  background: unset;
+}

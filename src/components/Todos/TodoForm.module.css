@@ -1,0 +1,19 @@
+.todoContainer {
+  margin-bottom: 20px;
+}
+
+.todoContainer input {
+  width: 50%;
+  font-size: 30px;
+  padding: 5px;
+  margin-right: 20px;
+  border: unset;
+  border-radius: 5px;
+}
+
+.todoContainer button {
+  transition: 0.5s;
+}
+.todoContainer button:hover {
+   background: rgb(183, 174, 109);
+}
